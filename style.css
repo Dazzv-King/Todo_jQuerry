@@ -1,0 +1,82 @@
+body{
+   background-color: #000000;
+   padding: 0;
+   margin: 0;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+}
+
+ol{
+    margin: 0;
+}
+
+.todo__section {
+    width:520px;
+    margin: 20px auto 0;
+    background-color: #50f1d9;
+    padding: 10px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.todo__item__input {
+    font-size: 16px;
+    height: 25px;
+    width: 350px;
+    margin: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: none
+}
+.todo__item__text {
+    word-wrap:break-word;
+    font-size: 15px;
+    font-style: normal;
+    margin: 5px;
+    width: 350px;
+    text-transform: capitalize;
+}
+
+.todo__list{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.todo__add__input{
+    width: 300px;
+    margin: 10px 0;
+    font-size: 15px;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(241, 241, 241);
+}
+
+.btn {
+    padding: 8px 15px;
+    background-color: #53f4dc;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin:  2px 2px;
+}
+
+.todo__item__remove__btn{
+    background-color: #e47777;
+    color: #fff;
+}
+
+@media screen and (max-width: 570px){
+    .todo__section{
+        width: 320px;
+    }
+    .todo__item__text{
+        width: 160px;
+    }
+    .todo__item__input {
+        width: 170px;
+    }
+}
