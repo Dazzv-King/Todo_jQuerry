@@ -1,3 +1,3 @@
 # Todo_jQuerry
 
-Open index.html file from folder
+Run index.html file from folder
